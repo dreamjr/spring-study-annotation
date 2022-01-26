@@ -21,6 +21,9 @@ class AnnotationApplicationTests {
     CustomAnnotationServiceImpl customAnnotationService;
 
     @Autowired
+    CustomAnnotationWithNameService customAnnotationWithNameService;
+
+    @Autowired
     private ApplicationContext context;
 
     @Test

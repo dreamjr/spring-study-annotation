@@ -5,7 +5,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class BService {
 
-    public void bFeatureMethod() {
+    public void bFeatureMethod(String param) {
+        System.out.println(param);
 
     }
 }

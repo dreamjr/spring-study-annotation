@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class AService {
 
-    public String AFeature() {
-        return "AFeature";
+    public String AFeature(String response) {
+        return "AFeature" + response;
     }
 }
